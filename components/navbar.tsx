@@ -1,5 +1,6 @@
 import Link from "next/link";
 import DesktopNavbar from "./desktop-navbar";
+import MobileNavbar from "./mobile-navbar";
 export default function Navbar() {
   return (
     <nav className="sticky top-0 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-50">
@@ -14,7 +15,7 @@ export default function Navbar() {
             </Link>
           </div>
           <DesktopNavbar />
-          {/* <MobileNavbar /> */}
+          <MobileNavbar />
         </div>
       </div>
     </nav>

@@ -7,7 +7,6 @@ import { SignInButton, UserButton } from "@clerk/nextjs";
 
 export default async function DesktopNavbar() {
   const user = await currentUser();
-  console.log(user);
 
   return (
     <div className="hidden md:flex items-center space-x-4">
