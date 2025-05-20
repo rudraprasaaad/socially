@@ -94,7 +94,7 @@ export default function NotificationPage() {
                         {notification.type === "FOLLOW"
                           ? "started following you"
                           : notification.type === "LIKE"
-                          ? "liked yourp post"
+                          ? "liked your post"
                           : "commented on your post"}
                       </span>
                     </div>
